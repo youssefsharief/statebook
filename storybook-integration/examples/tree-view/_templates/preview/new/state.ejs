@@ -1,0 +1,26 @@
+---
+to: src/stories/<%=name%>.stories.js
+---
+
+
+import React from 'react';
+import Node from '../containers/Node';
+import { Provider } from 'react-redux'
+import { getStore } from '../index'
+import jsonState from '../fixtures/<%=h.changeCase.camel(name)%>'
+
+export default {
+  title: 'app',
+  component: Node ,
+};
+
+const store = getStore()
+
+export const <%=h.changeCase.camel(name)%> = () => (
+    <Provider store={store}>
+      <Node id={0} />
+    </Provider>
+);
+
+store.replaceReducer(()=>jsonState)
+

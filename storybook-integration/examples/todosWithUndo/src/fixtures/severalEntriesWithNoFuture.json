@@ -1,0 +1,216 @@
+{
+  "todos": {
+    "past": [
+      [],
+      [
+        {
+          "id": 0,
+          "text": "a",
+          "completed": false
+        }
+      ],
+      [
+        {
+          "id": 0,
+          "text": "a",
+          "completed": false
+        },
+        {
+          "id": 1,
+          "text": "b",
+          "completed": false
+        }
+      ],
+      [
+        {
+          "id": 0,
+          "text": "a",
+          "completed": false
+        },
+        {
+          "id": 1,
+          "text": "b",
+          "completed": false
+        },
+        {
+          "id": 2,
+          "text": "c",
+          "completed": false
+        }
+      ]
+    ],
+    "present": [
+      {
+        "id": 0,
+        "text": "a",
+        "completed": false
+      },
+      {
+        "id": 1,
+        "text": "b",
+        "completed": false
+      },
+      {
+        "id": 2,
+        "text": "c",
+        "completed": false
+      },
+      {
+        "id": 3,
+        "text": "d",
+        "completed": false
+      }
+    ],
+    "future": [],
+    "history": {
+      "past": [
+        [],
+        [
+          {
+            "id": 0,
+            "text": "a",
+            "completed": false
+          }
+        ],
+        [
+          {
+            "id": 0,
+            "text": "a",
+            "completed": false
+          },
+          {
+            "id": 1,
+            "text": "b",
+            "completed": false
+          }
+        ],
+        [
+          {
+            "id": 0,
+            "text": "a",
+            "completed": false
+          },
+          {
+            "id": 1,
+            "text": "b",
+            "completed": false
+          },
+          {
+            "id": 2,
+            "text": "c",
+            "completed": false
+          }
+        ]
+      ],
+      "present": [
+        {
+          "id": 0,
+          "text": "a",
+          "completed": false
+        },
+        {
+          "id": 1,
+          "text": "b",
+          "completed": false
+        },
+        {
+          "id": 2,
+          "text": "c",
+          "completed": false
+        },
+        {
+          "id": 3,
+          "text": "d",
+          "completed": false
+        }
+      ],
+      "future": [],
+      "history": {
+        "past": [
+          [],
+          [
+            {
+              "id": 0,
+              "text": "a",
+              "completed": false
+            }
+          ],
+          [
+            {
+              "id": 0,
+              "text": "a",
+              "completed": false
+            },
+            {
+              "id": 1,
+              "text": "b",
+              "completed": false
+            }
+          ]
+        ],
+        "present": [
+          {
+            "id": 0,
+            "text": "a",
+            "completed": false
+          },
+          {
+            "id": 1,
+            "text": "b",
+            "completed": false
+          },
+          {
+            "id": 2,
+            "text": "c",
+            "completed": false
+          }
+        ],
+        "future": [],
+        "history": {
+          "past": [
+            [],
+            [
+              {
+                "id": 0,
+                "text": "a",
+                "completed": false
+              }
+            ]
+          ],
+          "present": [
+            {
+              "id": 0,
+              "text": "a",
+              "completed": false
+            },
+            {
+              "id": 1,
+              "text": "b",
+              "completed": false
+            }
+          ],
+          "future": [],
+          "history": {
+            "past": [
+              []
+            ],
+            "present": [
+              {
+                "id": 0,
+                "text": "a",
+                "completed": false
+              }
+            ],
+            "future": [],
+            "history": {
+              "past": [],
+              "present": [],
+              "future": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "visibilityFilter": "SHOW_ALL"
+}

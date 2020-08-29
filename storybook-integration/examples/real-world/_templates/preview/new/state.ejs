@@ -1,0 +1,27 @@
+---
+to: src/stories/<%=name%>.stories.js
+---
+
+
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom'
+import Root from '../containers/Root'
+import { Provider } from 'react-redux'
+import { getStore } from '../index'
+import jsonState from '../fixtures/<%=h.changeCase.camel(name)%>'
+
+export default {
+  title: 'app',
+  component: Root,
+};
+
+const store = getStore()
+
+export const <%=h.changeCase.camel(name)%> = () => (
+  <Router>
+    <Root store={getStore()} />
+  </Router>
+);
+
+store.replaceReducer(()=>jsonState)
+
