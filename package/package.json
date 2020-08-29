@@ -1,0 +1,16 @@
+{
+  "name": "statebook",
+  "version": "1.1.20",
+  "author": "",
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "bin": {
+    "sb-init": "./bin/storybook-init.js",
+    "sb-multigen": "./bin/generate-sb-stories-from-fixtures.js",
+    "cy-init": "./bin/cypress-init.js",
+    "cy-multigen": "./bin/generate-cypress-tests-from-fixtures.js"
+  },
+  "dependencies": {
+    "hygen": "^6.0.4"
+  }
+}
