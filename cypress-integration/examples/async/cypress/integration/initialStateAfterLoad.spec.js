@@ -1,10 +1,6 @@
----
-to: cypress/integration/<%=name%>.spec.js
----
+import state from '../fixtures/initialStateAfterLoad.json'
 
-import state from '../fixtures/<%=name%>.json'
-
-describe('<%=name%>', () => {
+describe('initialStateAfterLoad', () => {
     it('should work', () => {
         cy.visit('/')
         cy.window().its('ST').invoke('replaceReducer', () => state)

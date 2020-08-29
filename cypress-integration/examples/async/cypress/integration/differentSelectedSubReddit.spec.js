@@ -1,12 +1,9 @@
----
-to: cypress/integration/<%=name%>.spec.js
----
+import state from '../fixtures/differentSelectedSubReddit.json'
 
-import state from '../fixtures/<%=name%>.json'
-
-describe('<%=name%>', () => {
+describe('differentSelectedSubReddit', () => {
     it('should work', () => {
         cy.visit('/')
         cy.window().its('ST').invoke('replaceReducer', () => state)
     })
+    
 })
