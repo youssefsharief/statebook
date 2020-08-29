@@ -1,0 +1,12 @@
+---
+to: cypress/integration/<%=name%>.spec.js
+---
+
+import state from '../fixtures/<%=name%>.json'
+
+describe('<%=name%>, () => {
+    it('should work', () => {
+        cy.visit('/')
+        cy.window().its('ST').invoke('replaceReducer', () => state)
+    })
+})

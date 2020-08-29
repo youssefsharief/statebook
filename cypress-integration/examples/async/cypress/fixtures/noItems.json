@@ -1,0 +1,13 @@
+{
+  "postsBySubreddit": {
+    "reactjs": {
+      "isFetching": true,
+      "didInvalidate": false,
+      "items": [
+
+      ],
+      "lastUpdated": 1597732742835
+    }
+  },
+  "selectedSubreddit": "reactjs"
+}
