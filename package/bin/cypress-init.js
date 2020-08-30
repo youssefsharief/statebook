@@ -1,15 +1,27 @@
 #!/usr/bin/env node
 
 const fs = require('fs')
+const shell = require('shelljs')
 const { resolve } = require('path')
-const addHygenFiles = require('../lib/scripts/add-hygen-files');
+const copyHygenTemplate = require('../lib/scripts/copy-hygen-template');
 
-fs.mkdirSync('./cypress/fixtures', { recursive: true });
-fs.mkdirSync('./cypress/integration', { recursive: true });
+function createCypressDirs() {
+    fs.mkdirSync('./cypress/fixtures', { recursive: true });
+    fs.mkdirSync('./cypress/integration', { recursive: true });
+}
 
-fs.copyFile(resolve(__dirname, `../lib/templates/cypress.json`), './', (err) => {
-    if (err) throw err;
-    console.log('added cypress.json file')
-});
+function injectStoreInWindowObject() {
+    shell.sed('-i', 'render\\(', 'window.ST = store\nrender\(', 'src/index.js');
+}
 
-addHygenFiles('cypress')
+function addCypressJSON() {
+    fs.copyFile(resolve(__dirname, `../lib/templates/cypress.json`), './cypress.json', (err) => {
+        if (err) throw err;
+        console.log('added cypress.json file')
+    });
+}
+
+copyHygenTemplate('cypress')
+createCypressDirs()
+injectStoreInWindowObject()
+addCypressJSON()
