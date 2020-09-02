@@ -1,0 +1,10 @@
+.sidebar{
+    background-color: lightblue;
+    height:100vh;
+    padding: 1rem;
+}
+
+.sidebar a{
+    display: block; 
+    margin-bottom: 3rem;
+}
