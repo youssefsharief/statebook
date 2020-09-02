@@ -6,14 +6,11 @@ import BlueComponent from './components/BlueComponent'
 
 function App() {
   return (
-    <>
       <Router >
         <Home path="/" />
         <CapitalValue path="capital" />
         <BlueComponent path="blue" />
       </Router>
-    </>
-
   );
 }
 

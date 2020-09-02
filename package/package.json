@@ -4,6 +4,10 @@
   "author": "",
   "license": "ISC",
   "main": "./lib/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development --config ./webapp/webpack.config.js",
+    "build": "webpack --mode production --config ./webapp/webpack.config.js"
+  },
   "bin": {
     "sb-init": "./bin/storybook-init.js",
     "sb-multigen": "./bin/generate-sb-stories-from-fixtures.js",
@@ -11,7 +15,25 @@
     "cy-multigen": "./bin/generate-cypress-tests-from-fixtures.js"
   },
   "dependencies": {
+    "@reach/router": "^1.3.4",
+    "@reduxjs/toolkit": "^1.4.0",
     "hygen": "^6.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
     "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "html-loader": "^1.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
