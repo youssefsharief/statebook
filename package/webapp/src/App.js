@@ -9,13 +9,7 @@ function App() {
   const dispatch = useDispatch()
   useEffect(() => {
     // eslint-disable-next-line no-undef
-    const items = APP_DATA
-    Promise.all(items.map(x => import(`../../secondaryApp/fixtures/${x}`))).then(modules => {
-      const fixedModules = modules.map(x => x.default)
-      const obj = {}
-      items.forEach((name, i) => obj[name.substring(0, name.length - 5)] = fixedModules[i])
-      dispatch(saveAppDataItems(obj))
-    })
+    dispatch(saveAppDataItems(APP_DATA))
   }, [dispatch])
 
 
