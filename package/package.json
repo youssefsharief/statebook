@@ -23,9 +23,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
-    "shelljs": "^0.8.4"
-  },
-  "devDependencies": {
+    "shelljs": "^0.8.4",
     "@babel/core": "^7.11.5",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
