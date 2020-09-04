@@ -13,7 +13,8 @@
     "sb-multigen": "./bin/generate-sb-stories-from-fixtures.js",
     "cy-init": "./bin/cypress-init.js",
     "cy-multigen": "./bin/generate-cypress-tests-from-fixtures.js",
-    "s-dev": "./bin/dev.js"
+    "s-dev": "./bin/dev.js",
+    "s-init": "./bin/s-init.js"
   },
   "dependencies": {
     "@reach/router": "^1.3.4",
