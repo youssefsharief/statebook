@@ -1,5 +1,5 @@
 import React from 'react'
-import { ToRender, storeFactory } from '../../../secondaryApp/statebook-stories/index'
+import { ToRender, storeFactory } from 'Templates/statebook-app-template'
 import { Provider, useSelector } from 'react-redux';
 import { selectPickedAppDataItem } from '../features/appData/appDataSlice'
 
