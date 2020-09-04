@@ -6,18 +6,19 @@ const getAppData = require('./get-app-data')
 const dotenvConfig = dotenv.config().parsed;
 
 
+const isDevoloping = dotenvConfig && dotenvConfig.IS_DEVELOPING_PACKAGE 
 
 module.exports = (mode) => {
     return new Promise(async (res, rej) => {
-        const appData = await getAppData(dotenvConfig && dotenvConfig.IS_DEVELOPING_PACKAGE ? path.join('secondaryApp', 'fixtures') : path.join('src', 'fixtures'))
+        const appData = await getAppData(isDevoloping ? path.join('secondaryApp', 'fixtures') : path.join('src', 'fixtures'))
         const configObject = {
             mode,
             resolve: {
                 alias: {
-                    Templates: path.resolve(dotenvConfig && dotenvConfig.IS_DEVELOPING_PACKAGE ? './secondaryApp/templates/': path.join(__dirname, 'src', 'templates' ) ),
+                    Templates: path.resolve(isDevoloping ? './secondaryApp/templates/': path.join(__dirname, 'src', 'templates' ) ),
                 }
             },
-            entry: path.resolve(`./webapp/src`),
+            entry: path.resolve(isDevoloping ? `./webapp/src` : './src'),
             module: {
                 rules: [
                     {
@@ -43,7 +44,7 @@ module.exports = (mode) => {
             },
             plugins: [
                 new HtmlWebPackPlugin({
-                    template: path.resolve(`./webapp/src/index.html`),
+                    template: path.resolve(isDevoloping ? `./webapp/src/index.html` : `./src/index.html`),
                     filename: "index.html"
                 }),
                 new webpack.DefinePlugin({

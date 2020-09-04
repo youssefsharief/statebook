@@ -1,13 +1,9 @@
 {
   "name": "statebook",
-  "version": "1.1.28",
+  "version": "1.1.29",
   "author": "",
   "license": "ISC",
   "main": "./lib/index.js",
-  "scripts": {
-    "start": "webpack-dev-server --open --mode development --config ./webapp/webpack.config.js",
-    "build": "webpack --mode production --config ./webapp/webpack.config.js"
-  },
   "bin": {
     "sb-init": "./bin/storybook-init.js",
     "sb-multigen": "./bin/generate-sb-stories-from-fixtures.js",
