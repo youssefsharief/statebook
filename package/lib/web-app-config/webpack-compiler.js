@@ -9,12 +9,12 @@ const dotenvConfig = dotenv.config().parsed;
 
 module.exports = (mode) => {
     return new Promise(async (res, rej) => {
-        const appData = await getAppData(dotenvConfig.IS_DEVELOPING_PACKAGE ? path.join('secondaryApp', 'fixtures') : path.join('src', 'fixtures'))
+        const appData = await getAppData(dotenvConfig && dotenvConfig.IS_DEVELOPING_PACKAGE ? path.join('secondaryApp', 'fixtures') : path.join('src', 'fixtures'))
         const configObject = {
             mode,
             resolve: {
                 alias: {
-                    Templates: path.resolve(dotenvConfig.IS_DEVELOPING_PACKAGE ? './secondaryApp/templates/': path.join(__dirname, 'src', 'templates' ) ),
+                    Templates: path.resolve(dotenvConfig && dotenvConfig.IS_DEVELOPING_PACKAGE ? './secondaryApp/templates/': path.join(__dirname, 'src', 'templates' ) ),
                 }
             },
             entry: path.resolve(`./webapp/src`),
