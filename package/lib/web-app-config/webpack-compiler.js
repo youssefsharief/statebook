@@ -6,7 +6,7 @@ const getAppData = require('./get-app-data')
 const dotenvConfig = dotenv.config().parsed;
 
 
-const isDevoloping = dotenvConfig && dotenvConfig.IS_DEVELOPING_PACKAGE 
+const isDevoloping = dotenvConfig && dotenvConfig.IS_DEVELOPING_PACKAGE
 
 module.exports = (mode) => {
     return new Promise(async (res, rej) => {
@@ -14,18 +14,28 @@ module.exports = (mode) => {
         const configObject = {
             mode,
             resolve: {
+                modules: isDevoloping ? ['node_modules'] : [path.join(__dirname, '..', '..', 'node_modules'), 'node_modules'],
                 alias: {
-                    Templates: path.resolve(isDevoloping ? './secondaryApp/templates/': path.join(__dirname, 'src', 'templates' ) ),
+                    Templates: path.resolve(isDevoloping ? './secondaryApp/templates/' : path.join('src', 'templates')),
                 }
             },
-            entry: path.resolve(isDevoloping ? `./webapp/src` : './src'),
+            resolveLoader: {
+                modules: [path.join(__dirname, '..', '..', 'node_modules')],
+            },
+            entry: path.join(__dirname, '..', '..', 'webapp', 'src'),
             module: {
                 rules: [
                     {
                         test: /\.(js|jsx)$/,
                         exclude: /node_modules/,
                         use: {
-                            loader: "babel-loader"
+                            loader: "babel-loader",
+                            options: {
+                                presets: [
+                                    "@babel/preset-env",
+                                    "@babel/preset-react"
+                                ]
+                            }
                         }
                     },
                     {
@@ -44,7 +54,7 @@ module.exports = (mode) => {
             },
             plugins: [
                 new HtmlWebPackPlugin({
-                    template: path.resolve(isDevoloping ? `./webapp/src/index.html` : `./src/index.html`),
+                    template: path.join(__dirname, '..', '..', 'webapp', 'src', 'index.html'), 
                     filename: "index.html"
                 }),
                 new webpack.DefinePlugin({
