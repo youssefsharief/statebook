@@ -11,3 +11,6 @@ module.exports = async (directoryPath) => {
     await Promise.all(promises)
     return obj
 }
+
+
+

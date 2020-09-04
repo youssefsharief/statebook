@@ -1,3 +1,16 @@
 #!/usr/bin/env node
-const child_process = require('child_process');
-child_process.execSync('npm run build', { stdio: [0, 1, 2] });
+
+const getCompiler = require('../lib/web-app-config/webpack-compiler');
+
+
+(async function () {
+    const compiler = await getCompiler('production')
+    compiler.run((err, stats) => {
+        console.log(stats.toString({
+            chunks: true,
+            colors: true
+        }));
+    });
+})()
+
+
