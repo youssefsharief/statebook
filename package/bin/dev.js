@@ -9,6 +9,7 @@ const getCompiler = require('../lib/web-app-config/webpack-compiler');
         open: true,
         port: 8080,
         publicPath: "/",
+        historyApiFallback: true,
         stats: {
             // there were two other properties in this object which are cached and cachedAssets. Both were set to false
             colors: true,
