@@ -4,7 +4,8 @@ import { createStore } from 'redux'
 import Counter from './components/Counter'
 import counter from './reducers'
 
-const store = createStore(counter)
+export const getStore = () => createStore(counter)
+const store = getStore()
 const rootEl = document.getElementById('root')
 
 const render = () => ReactDOM.render(
