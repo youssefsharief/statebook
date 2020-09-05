@@ -2,7 +2,6 @@ const fs = require('fs').promises;
 const { join }  = require('path')
 
 module.exports = async (directoryPath) => {
-    console.error(directoryPath)
     const filenames = await fs.readdir(directoryPath).catch(err => console.log('Unable to scan directory: ' + err))
     const obj = {}
     const promises = filenames.map(filename =>
