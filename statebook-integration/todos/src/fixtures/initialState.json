@@ -1,0 +1,18 @@
+{
+  "url": "/",
+  "state": {
+    "todos": [
+      {
+        "id": 0,
+        "text": "adf",
+        "completed": false
+      },
+      {
+        "id": 1,
+        "text": "aaa",
+        "completed": false
+      }
+    ],
+    "visibilityFilter": "SHOW_COMPLETED"
+  }
+}

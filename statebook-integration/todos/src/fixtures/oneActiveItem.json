@@ -1,0 +1,13 @@
+{
+  "url": "/",
+  "state": {
+    "todos": [
+      {
+        "id": 0,
+        "text": "first itme",
+        "completed": false
+      }
+    ],
+    "visibilityFilter": "SHOW_ALL"
+  }
+}

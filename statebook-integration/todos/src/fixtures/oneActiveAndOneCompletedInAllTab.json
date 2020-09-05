@@ -1,0 +1,18 @@
+{
+  "url": "/",
+  "state": {
+    "todos": [
+      {
+        "id": 0,
+        "text": "first itme",
+        "completed": true
+      },
+      {
+        "id": 1,
+        "text": "second item",
+        "completed": false
+      }
+    ],
+    "visibilityFilter": "SHOW_ALL"
+  }
+}
