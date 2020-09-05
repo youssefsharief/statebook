@@ -1,0 +1,184 @@
+{
+  "url": "/",
+  "state": {
+    "postsBySubreddit": {
+      "reactjs": {
+        "isFetching": false,
+        "didInvalidate": false,
+        "items": [
+          {
+            "title": "Beginner's Thread / Easy Questions (August 2020)"
+          },
+          {
+            "title": "Who's Available? [August 2020]"
+          },
+          {
+            "title": "I created an open-source alternative to Google Analytics using React, Redux and Next.js"
+          },
+          {
+            "title": "Understanding React's useRef Hook"
+          },
+          {
+            "title": "I made a React app with an interactive map that features all the bike lanes, bike parking spots, services and etc. for my city."
+          },
+          {
+            "title": "zustand 3 is out, you can put context vs redux to rest"
+          },
+          {
+            "title": "Not finding module"
+          },
+          {
+            "title": "React app ideas"
+          },
+          {
+            "title": "API composition that only serves your UI"
+          },
+          {
+            "title": "Udacity React Developer"
+          },
+          {
+            "title": "Is CodeSandbox really buggy with refreshes for anyone else?"
+          },
+          {
+            "title": "The Next.js examples are incredible"
+          },
+          {
+            "title": "Using Redux Toolkit’s createReducer with React Context and TypeScript"
+          },
+          {
+            "title": "Apollo Client v3 Fullstack Next.js Setup with SSR + Nexus Schema"
+          },
+          {
+            "title": "Some impressions of my web app."
+          },
+          {
+            "title": "Few ways to boost your react applications performance"
+          },
+          {
+            "title": "I built a drag-and-drop kanban app UI (demo and live site link in the repo)"
+          },
+          {
+            "title": "react framework recommendation that has nice charts (but also everything)"
+          },
+          {
+            "title": "Is there a way to tell if an element is no longer active?"
+          },
+          {
+            "title": "I just made this web app for guitarists"
+          },
+          {
+            "title": "Customizing Complex React Components"
+          },
+          {
+            "title": "Anyone have any simple(ish) tutorials for API authentication with React/Node?"
+          },
+          {
+            "title": "Top component API call vs child component API call?"
+          },
+          {
+            "title": "Need suggestion for implementing a colored triangle"
+          },
+          {
+            "title": "Just another to-do list"
+          },
+          {
+            "title": "Side Project, useContext seems to forget a value"
+          },
+          {
+            "title": "JavaScript Closure | With 6 Examples and Explanations | Frequently Asked Job Interview Question 😬"
+          }
+        ],
+        "lastUpdated": 1597732742835
+      },
+      "frontend": {
+        "isFetching": false,
+        "didInvalidate": false,
+        "items": [
+          {
+            "title": "A quick word on self promotion and spam"
+          },
+          {
+            "title": "Beginner Question Megathread. Weekly /r/Frontend Discussion - August 16, 2020"
+          },
+          {
+            "title": "Can I ask frontend related questions or doubts here?"
+          },
+          {
+            "title": "Good places to find free svg art?"
+          },
+          {
+            "title": "Embla Carousel – The most fluid carousel library with unmatched swipe precision"
+          },
+          {
+            "title": "What are the best advices u can give to someone who just started out in front-end?"
+          },
+          {
+            "title": "check out this drag-and-drop kanban app I made (demo and live link in the repo)"
+          },
+          {
+            "title": "What do you recommend I learn in Colt Steele's \"The Web Developer Bootcamp\" strictly for becoming a Front End Developer?"
+          },
+          {
+            "title": "Applications of Rest and Spread operator in JavaScript"
+          },
+          {
+            "title": "Just graduated a bootcamp, what more can I do to help me find work as a Frontend Dev?"
+          },
+          {
+            "title": "To people who struggle with webpack"
+          },
+          {
+            "title": "Development process"
+          },
+          {
+            "title": "Github — more than just repos (in portuguese BR)"
+          },
+          {
+            "title": "Need suggestion for implementing a colored triangle"
+          },
+          {
+            "title": "What I Learned by Fixing One Line of CSS in an Open Source Project"
+          },
+          {
+            "title": "How do I fix an image whenever your scrolling reaches it?"
+          },
+          {
+            "title": "Hello /r/Frontend! I've made a web-app with my friends and it's called Arkvl."
+          },
+          {
+            "title": "Help with balancing life and work"
+          },
+          {
+            "title": "How much time did it take you to get your first job?"
+          },
+          {
+            "title": "Why is Vue so popular?"
+          },
+          {
+            "title": "[Open source] Swipe - One Page Bootstrap 5 Templates (MIT License)"
+          },
+          {
+            "title": "Bookmarklets to deal with annoying designs"
+          },
+          {
+            "title": "\"Junior\" .NET developer - I don't really like working on backend Logic heavy tickets but I absolutely love making websites look amazing."
+          },
+          {
+            "title": "Browser consideration"
+          },
+          {
+            "title": "New Design for my Webapp"
+          },
+          {
+            "title": "Looking for a browser extension that can help resize and reposition UI elements dynamically"
+          },
+          {
+            "title": "What does it mean to set up an environment, and how can I do it?"
+          }
+        ],
+        "lastUpdated": 1597732935922
+      }
+    },
+    "selectedSubreddit": "frontend"
+  }
+}

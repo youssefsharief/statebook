@@ -1,0 +1,96 @@
+{
+  "url": "/",
+  "state": {
+    "postsBySubreddit": {
+      "reactjs": {
+        "isFetching": false,
+        "didInvalidate": false,
+        "items": [
+          {
+            "title": "Beginner's Thread / Easy Questions (August 2020)"
+          },
+          {
+            "title": "Who's Available? [August 2020]"
+          },
+          {
+            "title": "I created an open-source alternative to Google Analytics using React, Redux and Next.js"
+          },
+          {
+            "title": "Understanding React's useRef Hook"
+          },
+          {
+            "title": "I made a React app with an interactive map that features all the bike lanes, bike parking spots, services and etc. for my city."
+          },
+          {
+            "title": "zustand 3 is out, you can put context vs redux to rest"
+          },
+          {
+            "title": "Not finding module"
+          },
+          {
+            "title": "React app ideas"
+          },
+          {
+            "title": "API composition that only serves your UI"
+          },
+          {
+            "title": "Udacity React Developer"
+          },
+          {
+            "title": "Is CodeSandbox really buggy with refreshes for anyone else?"
+          },
+          {
+            "title": "The Next.js examples are incredible"
+          },
+          {
+            "title": "Using Redux Toolkit’s createReducer with React Context and TypeScript"
+          },
+          {
+            "title": "Apollo Client v3 Fullstack Next.js Setup with SSR + Nexus Schema"
+          },
+          {
+            "title": "Some impressions of my web app."
+          },
+          {
+            "title": "Few ways to boost your react applications performance"
+          },
+          {
+            "title": "I built a drag-and-drop kanban app UI (demo and live site link in the repo)"
+          },
+          {
+            "title": "react framework recommendation that has nice charts (but also everything)"
+          },
+          {
+            "title": "Is there a way to tell if an element is no longer active?"
+          },
+          {
+            "title": "I just made this web app for guitarists"
+          },
+          {
+            "title": "Customizing Complex React Components"
+          },
+          {
+            "title": "Anyone have any simple(ish) tutorials for API authentication with React/Node?"
+          },
+          {
+            "title": "Top component API call vs child component API call?"
+          },
+          {
+            "title": "Need suggestion for implementing a colored triangle"
+          },
+          {
+            "title": "Just another to-do list"
+          },
+          {
+            "title": "Side Project, useContext seems to forget a value"
+          },
+          {
+            "title": "JavaScript Closure | With 6 Examples and Explanations | Frequently Asked Job Interview Question 😬"
+          }
+        ],
+        "lastUpdated": 1597732742835
+      }
+    },
+    "selectedSubreddit": "reactjs"
+  }
+}
