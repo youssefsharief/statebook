@@ -1,0 +1,21 @@
+{
+  "name": "@statebook/scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cy-init": "./bin/cypress-init.js",
+    "cy-multigen": "./bin/generate-cypress-tests-from-fixtures.js",
+    "s-init": "./bin/s-init.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hygen": "~5",
+    "shelljs": "^0.8.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
