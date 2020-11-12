@@ -1,0 +1,111 @@
+{
+  "authState": {
+    "currentUser": {
+      "login": "youssefsharief",
+      "id": 21158003,
+      "node_id": "MDQ6VXNlcjIxMTU4MDAz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/21158003?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/youssefsharief",
+      "html_url": "https://github.com/youssefsharief",
+      "followers_url": "https://api.github.com/users/youssefsharief/followers",
+      "following_url": "https://api.github.com/users/youssefsharief/following{/other_user}",
+      "gists_url": "https://api.github.com/users/youssefsharief/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/youssefsharief/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/youssefsharief/subscriptions",
+      "organizations_url": "https://api.github.com/users/youssefsharief/orgs",
+      "repos_url": "https://api.github.com/users/youssefsharief/repos",
+      "events_url": "https://api.github.com/users/youssefsharief/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/youssefsharief/received_events",
+      "type": "User",
+      "site_admin": false,
+      "name": "Youssef Sherif",
+      "company": "@Toptal",
+      "blog": "",
+      "location": "Vancouver, Canada",
+      "email": null,
+      "hireable": true,
+      "bio": null,
+      "twitter_username": null,
+      "public_repos": 101,
+      "public_gists": 12,
+      "followers": 59,
+      "following": 2,
+      "created_at": "2016-08-21T15:26:09Z",
+      "updated_at": "2020-10-04T22:18:16Z"
+    },
+    "isAuthenticated": true,
+    "error": "",
+    "loading": false
+  },
+  "categoryState": {
+    "categories": [
+      {
+        "id": "73c3f576-a52b-4b53-a090-2455446a9464",
+        "name": "category1",
+        "draggedOver": false
+      }
+    ],
+    "editingCategory": {
+      "id": "",
+      "tempName": ""
+    },
+    "error": "",
+    "loading": false
+  },
+  "noteState": {
+    "notes": [
+      {
+        "id": "195fac62-7480-4494-b3b9-de4f26e40fe5",
+        "text": "# Scratchpad\n\nA place for just random things you may want to jot down such as daily todos.\n\n\nworte some stuff here",
+        "category": "",
+        "scratchpad": true,
+        "favorite": false,
+        "created": "2020-10-04T15:23:02-07:00",
+        "lastUpdated": "2020-10-08T15:12:34-07:00"
+      },
+      {
+        "id": "eab8132c-182e-4d03-95c8-afc7e6e53f78",
+        "text": "Title1\n\nsome writings\n\n",
+        "created": "2020-10-08T19:41:12-07:00",
+        "lastUpdated": "2020-10-08T19:41:24-07:00",
+        "category": "",
+        "favorite": true
+      }
+    ],
+    "activeCategoryId": "",
+    "activeFolder": "ALL",
+    "activeNoteId": "eab8132c-182e-4d03-95c8-afc7e6e53f78",
+    "selectedNotesIds": [
+      "eab8132c-182e-4d03-95c8-afc7e6e53f78"
+    ],
+    "searchValue": "",
+    "error": "",
+    "loading": false
+  },
+  "settingsState": {
+    "isOpen": true,
+    "loading": false,
+    "previewMarkdown": false,
+    "darkTheme": false,
+    "sidebarVisible": true,
+    "notesSortKey": "lastUpdated",
+    "codeMirrorOptions": {
+      "mode": "gfm",
+      "theme": "base16-light",
+      "lineNumbers": false,
+      "lineWrapping": true,
+      "styleActiveLine": true,
+      "viewportMargin": null,
+      "keyMap": "default",
+      "dragDrop": false,
+      "direction": "ltr"
+    }
+  },
+  "syncState": {
+    "pendingSync": false,
+    "lastSynced": "2020-10-08T19:52:49-07:00",
+    "error": "",
+    "syncing": false
+  }
+}

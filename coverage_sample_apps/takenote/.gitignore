@@ -1,0 +1,14 @@
+/node_modules
+/coverage
+/combined
+/dist
+.idea
+.DS_Store
+.env
+.vscode
+
+npm-debug.log*
+.coveralls.yml
+**/*/videos
+/cypress/screenshots/
+tests/e2e/videos
