@@ -1,0 +1,2 @@
+public/workers/libs/**/*.js
+src/serviceWorker.ts

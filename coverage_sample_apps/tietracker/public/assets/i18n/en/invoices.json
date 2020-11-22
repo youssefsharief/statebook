@@ -1,0 +1,19 @@
+{
+  "invoice": {
+    "no_period": "No period defined.",
+    "empty": "For the selected period nothing can be billed.",
+    "billable": "For the selected period <strong>{{amount}}</strong> can be billed, i.e. {{hours}}.",
+    "from": "From",
+    "to": "To",
+    "close": "Close invoice",
+    "entries_billed": "Set entries as 'billed'.",
+    "billed": "{{amount}} will have been invoiced.",
+    "budget": "{{amount}} will have been invoiced, i.e. <strong>{{ratio}}</strong> of the budget."
+  },
+  "invoices": {
+    "title": "Open Invoices",
+    "empty": "No clients can be billed.",
+    "open_bill": "Open bill",
+    "backup": "Backup"
+  }
+}

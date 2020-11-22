@@ -1,0 +1,99 @@
+{
+  "clients": {
+    "clients": [
+      {
+        "id": "d5051503-3503-45d8-84c5-c3551df49433",
+        "data": {
+          "name": "First client name",
+          "color": "#0693E3",
+          "created_at": 1606086761576,
+          "updated_at": 1606086761576
+        }
+      }
+    ]
+  },
+  "activeProjects": {
+    "projects": [
+      {
+        "id": "02195259-7ecd-4bee-97c8-fadde68a4cc8",
+        "data": {
+          "name": "Project1",
+          "disabled": false,
+          "rate": {
+            "hourly": 70,
+            "vat": false
+          },
+          "budget": {
+            "budget": 40000,
+            "billed": 0
+          },
+          "client": {
+            "id": "d5051503-3503-45d8-84c5-c3551df49433",
+            "name": "First client name",
+            "color": "#0693E3"
+          },
+          "created_at": 1606086761605,
+          "updated_at": 1606086761605
+        }
+      }
+    ]
+  },
+  "tasks": {
+    "taskItems": [],
+    "taskItemsSelectedDate": "2020-11-22T23:12:02.696Z"
+  },
+  "summary": {
+    "summary": {
+      "days": [],
+      "total": {
+        "week": {
+          "milliseconds": 0,
+          "billable": 0
+        },
+        "today": {
+          "milliseconds": 0,
+          "billable": 0
+        }
+      }
+    }
+  },
+  "invoices": {
+    "invoices": []
+  },
+  "settings": {
+    "settings": {
+      "currency": {
+        "currency": "TRY",
+        "format": {
+          "name": "Turkish Lira",
+          "fractionSize": 2,
+          "symbol": {
+            "grapheme": "₺",
+            "template": "$1",
+            "rtl": false
+          },
+          "uniqSymbol": {
+            "grapheme": "₺",
+            "template": "$1",
+            "rtl": false
+          }
+        }
+      },
+      "roundTime": 15,
+      "descriptions": [
+        "Meeting",
+        "Test",
+        "Communication",
+        "Release",
+        "Development"
+      ],
+      "notifications": true,
+      "backup": false,
+      "created_at": 1606060920357,
+      "updated_at": 1606086677677
+    }
+  },
+  "theme": {
+    "dark": false
+  }
+}

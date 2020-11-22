@@ -53,7 +53,38 @@ module.exports = (on, config) => {
 }
 ```
 
-* Use `react-app-rewired` and `customize-cra` to include babelrc with istanbul plugin
+* In support/indes.js 
+``` javascript
+import '@cypress/code-coverage/support'
+```
+
+
+
+* If you are using native webpack config, then you need to asdd the instanbul babel plugin to
+``` javascript
+var babelOptions = {
+  "plugins": [ "istanbul" ]
+};
+
+  {
+        test: /\.ts(x?)$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'babel-loader',
+            options: babelOptions
+          },
+          {
+            loader: 'ts-loader'
+          }
+        ]
+
+      },
+```
+
+
+
+* Otherwsie, use `react-app-rewired` and `customize-cra` to include babelrc with istanbul plugin
 
 * In config-overrides 
 

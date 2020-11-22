@@ -1,0 +1,212 @@
+{
+  "clients": {
+    "clients": [
+      {
+        "id": "d5051503-3503-45d8-84c5-c3551df49433",
+        "data": {
+          "name": "First client name",
+          "color": "#0693E3",
+          "created_at": 1606086761576,
+          "updated_at": 1606086834661
+        }
+      }
+    ]
+  },
+  "activeProjects": {
+    "projects": [
+      {
+        "id": "abd38fe8-3c28-408d-afa2-cf59a69dbce6",
+        "data": {
+          "name": "Project2",
+          "disabled": false,
+          "rate": {
+            "hourly": 55,
+            "vat": false
+          },
+          "budget": {
+            "budget": 500000,
+            "billed": 0
+          },
+          "client": {
+            "id": "d5051503-3503-45d8-84c5-c3551df49433",
+            "name": "First client name",
+            "color": "#0693E3"
+          },
+          "created_at": 1606086854554,
+          "updated_at": 1606086854554
+        }
+      },
+      {
+        "id": "02195259-7ecd-4bee-97c8-fadde68a4cc8",
+        "data": {
+          "name": "Project1",
+          "disabled": false,
+          "rate": {
+            "hourly": 70,
+            "vat": false
+          },
+          "budget": {
+            "budget": 40000,
+            "billed": 0
+          },
+          "client": {
+            "id": "d5051503-3503-45d8-84c5-c3551df49433",
+            "name": "First client name",
+            "color": "#0693E3"
+          },
+          "created_at": 1606086761605,
+          "updated_at": 1606086834665
+        }
+      }
+    ]
+  },
+  "tasks": {
+    "taskItems": [
+      {
+        "id": "ce410151-a8ae-4a3f-9310-04babf57a7a8",
+        "data": {
+          "from": 1606086908257,
+          "to": 1606087508257,
+          "client_id": "d5051503-3503-45d8-84c5-c3551df49433",
+          "project_id": "abd38fe8-3c28-408d-afa2-cf59a69dbce6",
+          "description": "Meeting",
+          "invoice": {
+            "status": "open"
+          },
+          "updated_at": 1606086934310,
+          "created_at": 1606086934309,
+          "client": {
+            "name": "First client name",
+            "color": "#0693E3"
+          },
+          "project": {
+            "name": "Project2",
+            "rate": {
+              "hourly": 55,
+              "vat": false
+            },
+            "budget": {
+              "budget": 500000,
+              "billed": 0
+            }
+          },
+          "milliseconds": 600000,
+          "billable": 9.166666666666666
+        }
+      }
+    ],
+    "taskItemsSelectedDate": "2020-11-22T23:12:00.000Z"
+  },
+  "summary": {
+    "summary": {
+      "days": [
+        {
+          "day": 1605513600000,
+          "milliseconds": 0,
+          "billable": 0
+        },
+        {
+          "day": 1605600000000,
+          "milliseconds": 0,
+          "billable": 0
+        },
+        {
+          "day": 1605686400000,
+          "milliseconds": 0,
+          "billable": 0
+        },
+        {
+          "day": 1605772800000,
+          "milliseconds": 0,
+          "billable": 0
+        },
+        {
+          "day": 1605859200000,
+          "milliseconds": 0,
+          "billable": 0
+        },
+        {
+          "day": 1605945600000,
+          "milliseconds": 0,
+          "billable": 0
+        },
+        {
+          "day": 1606032000000,
+          "milliseconds": 600000,
+          "billable": 9.166666666666666
+        }
+      ],
+      "total": {
+        "week": {
+          "milliseconds": 600000,
+          "billable": 9.166666666666666
+        },
+        "today": {
+          "milliseconds": 600000,
+          "billable": 9.166666666666666
+        }
+      }
+    }
+  },
+  "invoices": {
+    "invoices": [
+      {
+        "client_id": "d5051503-3503-45d8-84c5-c3551df49433",
+        "project_id": "abd38fe8-3c28-408d-afa2-cf59a69dbce6",
+        "client": {
+          "name": "First client name",
+          "color": "#0693E3"
+        },
+        "project": {
+          "name": "Project2",
+          "rate": {
+            "hourly": 55,
+            "vat": false
+          },
+          "budget": {
+            "budget": 500000,
+            "billed": 0
+          }
+        },
+        "hours": 0.16666666666666666,
+        "billable": 9.166666666666666
+      }
+    ]
+  },
+  "settings": {
+    "settings": {
+      "currency": {
+        "currency": "TRY",
+        "format": {
+          "name": "Turkish Lira",
+          "fractionSize": 2,
+          "symbol": {
+            "grapheme": "₺",
+            "template": "$1",
+            "rtl": false
+          },
+          "uniqSymbol": {
+            "grapheme": "₺",
+            "template": "$1",
+            "rtl": false
+          }
+        }
+      },
+      "roundTime": 15,
+      "descriptions": [
+        "Meeting",
+        "Test",
+        "Communication",
+        "Release",
+        "Development"
+      ],
+      "notifications": true,
+      "backup": false,
+      "created_at": 1606060920357,
+      "updated_at": 1606086677677
+    }
+  },
+  "theme": {
+    "dark": false
+  }
+}

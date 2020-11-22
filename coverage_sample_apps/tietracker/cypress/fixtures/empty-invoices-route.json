@@ -1,0 +1,66 @@
+{
+  "clients": {
+    "clients": []
+  },
+  "activeProjects": {
+    "projects": []
+  },
+  "tasks": {
+    "taskItems": [],
+    "taskItemsSelectedDate": "2020-11-22T23:11:21.997Z"
+  },
+  "summary": {
+    "summary": {
+      "days": [],
+      "total": {
+        "week": {
+          "milliseconds": 0,
+          "billable": 0
+        },
+        "today": {
+          "milliseconds": 0,
+          "billable": 0
+        }
+      }
+    }
+  },
+  "invoices": {
+    "invoices": []
+  },
+  "settings": {
+    "settings": {
+      "currency": {
+        "currency": "TRY",
+        "format": {
+          "name": "Turkish Lira",
+          "fractionSize": 2,
+          "symbol": {
+            "grapheme": "₺",
+            "template": "$1",
+            "rtl": false
+          },
+          "uniqSymbol": {
+            "grapheme": "₺",
+            "template": "$1",
+            "rtl": false
+          }
+        }
+      },
+      "roundTime": 15,
+      "descriptions": [
+        "Meeting",
+        "Test",
+        "Communication",
+        "Release",
+        "Development"
+      ],
+      "notifications": true,
+      "backup": false,
+      "created_at": 1606060920357,
+      "updated_at": 1606086677677
+    }
+  },
+  "theme": {
+    "dark": false
+  }
+}
